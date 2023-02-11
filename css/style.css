@@ -177,3 +177,41 @@ header button {
     border-radius: 5px;
     border: none;
 }
+
+/* Get My Updates section */
+.updates-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.updates-section h1 {
+    font-size: 45px;
+}
+
+.updates-section p {
+    font-size: 18px;
+}
+
+.updates-section input {
+    background-color: #D9D9D9;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    width: 300px;
+}
+
+.updates-section button {
+    background-color: #FF5959;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    margin-left: -5px;
+}
+
+.input-bg {
+    margin: 50px auto;
+    background-color: #FFF4D6;
+    width: 600px;
+    padding: 80px 100px;
+}
