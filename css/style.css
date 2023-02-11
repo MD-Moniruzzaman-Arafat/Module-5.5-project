@@ -84,3 +84,60 @@ header button {
     border-radius: 5px;
     border: none;
 }
+
+/* Our Donate Plan section */
+.our-donate-plan-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.our-donate-plan-section h1 {
+    font-size: 45px;
+}
+
+.our-donate-plan-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.plans {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.plans h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.plans p {
+    font-size: 16px;
+}
+
+.item1 {
+    background-color: rgba(79, 157, 166, 0.1);
+    ;
+    width: 350px;
+    text-align: left;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.item2 {
+    background-color: rgba(255, 89, 89, 0.1);
+    ;
+    width: 350px;
+    text-align: left;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.item3 {
+    background-color: #FFF4D6;
+    width: 350px;
+    text-align: left;
+    padding: 20px;
+    border-radius: 5px;
+}
