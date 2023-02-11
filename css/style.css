@@ -4,6 +4,8 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* header section */
+
 header {
     background-image: url(../images/donation7.jpg);
     background-repeat: no-repeat;
@@ -28,4 +30,57 @@ header button {
     color: white;
     padding: 15px 20px;
     border-radius: 5px;
+    border: none;
+}
+
+/* Donate Today section */
+.donate-today-container {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.donate-today-container h1 {
+    font-size: 45px;
+}
+
+.donate-today-container p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.amount {
+    display: flex;
+    justify-content: center;
+}
+
+.amount h1 {
+    font-size: 30px;
+    padding: 30px;
+    margin: 5px;
+    background-color: rgba(211, 211, 211, 0.605);
+    border-radius: 5px;
+}
+
+.amount-color {
+    color: #FF5959;
+    background-color: #ff5959;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+}
+
+.donate-today-container input {
+    border: none;
+    border-bottom: 2px solid lightgray;
+    width: 800px;
+    text-align: center;
+    margin: 10px 0;
+    padding: 15px 0;
+}
+
+.donate-today-container button {
+    background-color: #FF5959;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: none;
 }
